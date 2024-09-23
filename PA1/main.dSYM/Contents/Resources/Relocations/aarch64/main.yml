@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/vurdaneta/Documents/cop 3502/PA1/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _createGarage, symObjAddr: 0x0, symBinAddr: 0x100002924, symSize: 0x90 }
+  - { offsetInCU: 0x54, offset: 0x54, size: 0x8, addend: 0x0, symName: _createGarage, symObjAddr: 0x0, symBinAddr: 0x100002924, symSize: 0x90 }
+  - { offsetInCU: 0x98, offset: 0x98, size: 0x8, addend: 0x0, symName: _createRegisteredVehicle, symObjAddr: 0x90, symBinAddr: 0x1000029B4, symSize: 0xA0 }
+  - { offsetInCU: 0xDC, offset: 0xDC, size: 0x8, addend: 0x0, symName: _registerVehicle, symObjAddr: 0x130, symBinAddr: 0x100002A54, symSize: 0x9C }
+  - { offsetInCU: 0x138, offset: 0x138, size: 0x8, addend: 0x0, symName: _parkVehicle, symObjAddr: 0x1CC, symBinAddr: 0x100002AF0, symSize: 0x88 }
+  - { offsetInCU: 0x16A, offset: 0x16A, size: 0x8, addend: 0x0, symName: _removeVehicleFromGarage, symObjAddr: 0x254, symBinAddr: 0x100002B78, symSize: 0x15C }
+  - { offsetInCU: 0x1D8, offset: 0x1D8, size: 0x8, addend: 0x0, symName: _searchVehicleByLicense, symObjAddr: 0x3B0, symBinAddr: 0x100002CD4, symSize: 0xA8 }
+  - { offsetInCU: 0x22A, offset: 0x22A, size: 0x8, addend: 0x0, symName: _countTotalVehicles, symObjAddr: 0x458, symBinAddr: 0x100002D7C, symSize: 0x18 }
+  - { offsetInCU: 0x252, offset: 0x252, size: 0x8, addend: 0x0, symName: _resizeGarage, symObjAddr: 0x470, symBinAddr: 0x100002D94, symSize: 0x94 }
+  - { offsetInCU: 0x2A4, offset: 0x2A4, size: 0x8, addend: 0x0, symName: _relocateVehicle, symObjAddr: 0x504, symBinAddr: 0x100002E28, symSize: 0x278 }
+  - { offsetInCU: 0x366, offset: 0x366, size: 0x8, addend: 0x0, symName: _displayVehiclesByOwner, symObjAddr: 0x77C, symBinAddr: 0x1000030A0, symSize: 0x1E4 }
+  - { offsetInCU: 0x424, offset: 0x424, size: 0x8, addend: 0x0, symName: _removeGarage, symObjAddr: 0x960, symBinAddr: 0x100003284, symSize: 0x1B4 }
+  - { offsetInCU: 0x4A0, offset: 0x4A0, size: 0x8, addend: 0x0, symName: _generateGarageUtilizationReport, symObjAddr: 0xB14, symBinAddr: 0x100003438, symSize: 0x174 }
+  - { offsetInCU: 0x518, offset: 0x518, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xC88, symBinAddr: 0x1000035AC, symSize: 0x728 }
+...
