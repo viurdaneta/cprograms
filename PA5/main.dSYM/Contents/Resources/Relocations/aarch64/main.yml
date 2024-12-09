@@ -1,0 +1,27 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     main
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _create_node, symObjAddr: 0x0, symBinAddr: 0x100002CD4, symSize: 0x5C }
+  - { offsetInCU: 0x9E, offset: 0x9E, size: 0x8, addend: 0x0, symName: _create_node, symObjAddr: 0x0, symBinAddr: 0x100002CD4, symSize: 0x5C }
+  - { offsetInCU: 0xE2, offset: 0xE2, size: 0x8, addend: 0x0, symName: _find, symObjAddr: 0x5C, symBinAddr: 0x100002D30, symSize: 0xCC }
+  - { offsetInCU: 0x126, offset: 0x126, size: 0x8, addend: 0x0, symName: _add, symObjAddr: 0x128, symBinAddr: 0x100002DFC, symSize: 0x180 }
+  - { offsetInCU: 0x178, offset: 0x178, size: 0x8, addend: 0x0, symName: _add_owner, symObjAddr: 0x2A8, symBinAddr: 0x100002F7C, symSize: 0x3C }
+  - { offsetInCU: 0x1CA, offset: 0x1CA, size: 0x8, addend: 0x0, symName: _isLeaf, symObjAddr: 0x2E4, symBinAddr: 0x100002FB8, symSize: 0x50 }
+  - { offsetInCU: 0x1F2, offset: 0x1F2, size: 0x8, addend: 0x0, symName: _hasOnlyLeftChild, symObjAddr: 0x334, symBinAddr: 0x100003008, symSize: 0x50 }
+  - { offsetInCU: 0x21A, offset: 0x21A, size: 0x8, addend: 0x0, symName: _hasOnlyRightChild, symObjAddr: 0x384, symBinAddr: 0x100003058, symSize: 0x50 }
+  - { offsetInCU: 0x242, offset: 0x242, size: 0x8, addend: 0x0, symName: _find_max, symObjAddr: 0x3D4, symBinAddr: 0x1000030A8, symSize: 0x40 }
+  - { offsetInCU: 0x26A, offset: 0x26A, size: 0x8, addend: 0x0, symName: _parent, symObjAddr: 0x414, symBinAddr: 0x1000030E8, symSize: 0xE8 }
+  - { offsetInCU: 0x2A0, offset: 0x2A0, size: 0x8, addend: 0x0, symName: _findNode, symObjAddr: 0x4FC, symBinAddr: 0x1000031D0, symSize: 0xB4 }
+  - { offsetInCU: 0x2D6, offset: 0x2D6, size: 0x8, addend: 0x0, symName: _delete_node, symObjAddr: 0x5B0, symBinAddr: 0x100003284, symSize: 0x2E8 }
+  - { offsetInCU: 0x361, offset: 0x361, size: 0x8, addend: 0x0, symName: _deduct_owner, symObjAddr: 0x898, symBinAddr: 0x10000356C, symSize: 0x118 }
+  - { offsetInCU: 0x3C1, offset: 0x3C1, size: 0x8, addend: 0x0, symName: _count, symObjAddr: 0x9B0, symBinAddr: 0x100003684, symSize: 0x6C }
+  - { offsetInCU: 0x3E9, offset: 0x3E9, size: 0x8, addend: 0x0, symName: _calculate_total_fine, symObjAddr: 0xA1C, symBinAddr: 0x1000036F0, symSize: 0x94 }
+  - { offsetInCU: 0x411, offset: 0x411, size: 0x8, addend: 0x0, symName: _average, symObjAddr: 0xAB0, symBinAddr: 0x100003784, symSize: 0xFC }
+  - { offsetInCU: 0x46D, offset: 0x46D, size: 0x8, addend: 0x0, symName: _calculate_height, symObjAddr: 0xBAC, symBinAddr: 0x100003880, symSize: 0xA0 }
+  - { offsetInCU: 0x4B5, offset: 0x4B5, size: 0x8, addend: 0x0, symName: _height_balance, symObjAddr: 0xC4C, symBinAddr: 0x100003920, symSize: 0xC4 }
+  - { offsetInCU: 0x508, offset: 0x508, size: 0x8, addend: 0x0, symName: _calculate_total_fine_below, symObjAddr: 0xD10, symBinAddr: 0x1000039E4, symSize: 0xAC }
+  - { offsetInCU: 0x54C, offset: 0x54C, size: 0x8, addend: 0x0, symName: _calc_below, symObjAddr: 0xDBC, symBinAddr: 0x100003A90, symSize: 0x98 }
+  - { offsetInCU: 0x590, offset: 0x590, size: 0x8, addend: 0x0, symName: _free_tree, symObjAddr: 0xE54, symBinAddr: 0x100003B28, symSize: 0x5C }
+  - { offsetInCU: 0x5B6, offset: 0x5B6, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xEB0, symBinAddr: 0x100003B84, symSize: 0x2EC }
+...
